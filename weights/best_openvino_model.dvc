@@ -1,0 +1,5 @@
+outs:
+- md5: 931d93278f703c409750c62d6b93687b.dir
+  size: 14341793
+  nfiles: 4
+  path: best_openvino_model
