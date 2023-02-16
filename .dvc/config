@@ -5,4 +5,3 @@
 ['remote "storage"']
     url = ssh://91.206.15.25/home/danyashorokh/dvc_files
     user = danyashorokh
-    keyfile = /Users/danya/.ssh/id_rsa_cvr
