@@ -9,4 +9,3 @@ class Config:
     device = 'cpu'
     image_size = (1280, 720)
     object_threshold = 0.4
-

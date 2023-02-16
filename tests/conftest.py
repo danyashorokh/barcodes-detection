@@ -26,5 +26,4 @@ def sample_image_np():
 
 @pytest.fixture(scope='session')
 def model_wrapper():
-    return ObjectDetector(weights=Config.weights, device=Config.device,
-                          threshold=Config.object_threshold)
+    return ObjectDetector(weights=Config.weights, device=Config.device, threshold=Config.object_threshold)
