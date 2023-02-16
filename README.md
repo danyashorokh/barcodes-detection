@@ -84,6 +84,7 @@ detector = ObjectDetectionWrapper(weights='path/to/weights', device='your_device
 
 boxes, scores, labels_ids = detector.detect(image)  # boxes in x1y1x2y2 format
 ```
+or use official pypi [docs](https://pypi.org/project/yolov5/)
 
 
 ### Experiments logging
