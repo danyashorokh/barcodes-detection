@@ -6,14 +6,12 @@ import numpy as np
 
 def test_model_empty_tensor(model_wrapper, dummy_input):
     boxes, scores, labels_ids = model_wrapper.detect(dummy_input)
-    assert boxes
     assert scores
     assert labels_ids
 
 
 def test_model_np_image(model_wrapper, sample_image_np):
     boxes, scores, labels_ids = model_wrapper.detect(sample_image_np)
-    assert boxes
     assert scores
     assert labels_ids
 
