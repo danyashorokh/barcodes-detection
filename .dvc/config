@@ -1,0 +1,7 @@
+[core]
+    remote = storage
+[cache]
+    type = "hardlink,symlink"
+['remote "storage"']
+    url = ssh://91.206.15.25/home/danyashorokh/dvc_files
+    user = danyashorokh
